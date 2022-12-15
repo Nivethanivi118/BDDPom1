@@ -15,6 +15,10 @@ WebElement searchBtn;
 WebElement Login;
 @FindBy(id="cart")
 WebElement Cart;
+@FindBy(id="cart")
+WebElement AddCart;
+@FindBy(id="cart")
+WebElement AddingCart;
 
 public HomePage()
 {
