@@ -10,7 +10,8 @@ public class searchItemPage extends TestBase {
 	
 	@FindBy(xpath="//li[@class='preview']")
 	WebElement item;
-	
+	@FindBy(xpath="//li[@class='preview']")
+	WebElement item1;
 	@FindBy(xpath="//button[contains(text(),'Add to cart')]")
 	WebElement addtoCart;
 public searchItemPage() {
